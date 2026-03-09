@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>MuruVerse PS4 Host</title>
+
+<style>
+
+body{
+background:#0b0b0b;
+color:white;
+font-family:Arial;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#111;
+padding:25px;
+font-size:32px;
+color:#00e0ff;
+}
+
+.container{
+margin-top:60px;
+}
+
+button{
+
+width:220px;
+padding:15px;
+margin:10px;
+font-size:18px;
+border:none;
+border-radius:8px;
+background:#007bff;
+color:white;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+button:hover{
+
+background:#0056b3;
+
+}
+
+.footer{
+
+margin-top:80px;
+color:gray;
+font-size:14px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+MuruVerse PS4 9.00 Host
+</header>
+
+<div class="container">
+
+<button onclick="message('Starting exploit...')">
+Exploit + GoldHEN
+</button>
+
+<button onclick="message('Starting FTP Server')">
+FTP Server
+</button>
+
+<button onclick="message('Loading App2USB')">
+App2USB
+</button>
+
+<button onclick="message('Payload Loader')">
+Payload Loader
+</button>
+
+<button onclick="message('Disable Updates')">
+Disable Updates
+</button>
+
+</div>
+
+<p id="status"></p>
+
+<div class="footer">
+MuruVerse Store
+</div>
+
+<script>
+
+function message(text){
+
+document.getElementById("status").innerHTML = text;
+
+}
+
+</script>
+
+</body>
+</html>
