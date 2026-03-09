@@ -1,0 +1,8 @@
+{
+"name":"MuruVerse Host",
+"short_name":"MuruVerse",
+"start_url":"index.html",
+"display":"standalone",
+"background_color":"#000000",
+"theme_color":"#0077ff"
+}
